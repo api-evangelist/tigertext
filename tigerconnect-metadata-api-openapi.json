@@ -1,0 +1,35 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "TigerConnect Metadata API",
+        "description": "The metadata system for TigerConnect messaging platform.",
+        "termsOfService": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+    },
+    "servers": [
+        "httpsdeveloper.tigertext.me\/v2\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "metadata": {
+                "type": "object",
+                "properties": {
+                    "body": {
+                        "description": "The metadata in the body.",
+                        "type": "string"
+                    }
+                }
+            },
+            "holder": {
+                "type": "object",
+                "properties": {
+                    "body": {
+                        "description": "The metadata in the body.",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
