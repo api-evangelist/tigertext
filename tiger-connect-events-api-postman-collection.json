@@ -1,0 +1,59 @@
+{
+    "id": "3ead4d4b71aee51b6e0646f6ffea47d4",
+    "name": "Tiger Connect Events API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "a49058d328f8af22a6230557747551ae",
+            "name": "Drop the events connections.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/events\/",
+            "description": "Drop the events connections.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3ead4d4b71aee51b6e0646f6ffea47d4",
+            "rawModeData": ""
+        },
+        {
+            "id": "e1bad41f754634dcb2ddfd816faf0b28",
+            "name": "Opens a SSE event stream.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/events\/",
+            "description": "Opens a SSE event stream. The various Event Types are listed below.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3ead4d4b71aee51b6e0646f6ffea47d4",
+            "rawModeData": ""
+        }
+    ]
+}
