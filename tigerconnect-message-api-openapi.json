@@ -1,0 +1,70 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "TigerConnect Message API",
+        "description": "The message system for TigerConnect messaging platform.",
+        "termsOfService": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+    },
+    "servers": [
+        "httpsdeveloper.tigertext.me\/v2\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Message": {
+                "type": "object",
+                "properties": {
+                    "message_id": {
+                        "description": "The message token",
+                        "type": "string"
+                    },
+                    "sender_token": {
+                        "description": "The sender User token",
+                        "type": "string"
+                    },
+                    "sender_organization": {
+                        "description": "The sender User organization token",
+                        "type": "string"
+                    },
+                    "recipient_token": {
+                        "description": "The recipient User or Group token",
+                        "type": "string"
+                    },
+                    "recipient_organization": {
+                        "description": "The recipient organization token",
+                        "type": "string"
+                    },
+                    "created_time": {
+                        "description": "Message creation time according to the server",
+                        "type": "string"
+                    },
+                    "body": {
+                        "description": "The message body",
+                        "type": "string"
+                    },
+                    "ttl": {
+                        "description": "An integer value with the number of minutes until the message expires. -1 indicates no expiration",
+                        "type": "string"
+                    },
+                    "dor": {
+                        "description": "Boolean value indicating that the message will be deleted on read",
+                        "type": "string"
+                    },
+                    "status": {
+                        "description": "The message status. Possible values: New, Delivered, Read",
+                        "type": "string"
+                    },
+                    "attachments": {
+                        "description": "A JSON Array of attachment objects, each one with the following fields, if no attachment then this will be empty:",
+                        "type": "string"
+                    },
+                    "data": {
+                        "description": "A JSON Array of user-defined datum elements, each one with the following fields, if no data then this will be empty",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
