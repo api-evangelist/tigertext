@@ -1,0 +1,74 @@
+{
+    "id": "1732d248f2027963c1cae843180a76a5",
+    "name": "Tiger Connect Roster API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "2797e9f12a096a5f7ffaef9e63ff207f",
+            "name": "Get the recent conversation list for a user. As new messages are sent and received, the roster is updated with those conversations.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/roster\/",
+            "description": "Get the recent conversation list for a user. As new messages are sent and received, the roster is updated with those conversations.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1732d248f2027963c1cae843180a76a5",
+            "rawModeData": ""
+        },
+        {
+            "id": "266c8a20a29376e6d55ea572bf473dc4",
+            "name": "Remove a conversation from the recent conversation list.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/roster\/{user_address}\/",
+            "description": "Remove a conversation from the recent conversation list. For conversations that are with another User, all messages are deleted. For conversations with a group, the User leaves the group and is no longer receives subsequent group messages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "TT",
+                    "description": "The organization with which the entity is associated in the roster. Defaults to the TigerText Consumer organization",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user_address",
+                    "description": "User address or group token",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "1732d248f2027963c1cae843180a76a5",
+            "rawModeData": ""
+        }
+    ]
+}
