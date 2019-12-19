@@ -1,0 +1,179 @@
+{
+    "id": "e64cb342fa1b72057d5ea94cd12122c6",
+    "name": "Tiger Connect Group API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "56e1ace108494e9d3d0678eaa70b334e",
+            "name": "Create a new group.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/",
+            "description": "Create a new group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "avatar",
+                    "description": " Binary data to use for the groups avatar",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "members",
+                    "description": "The members to add to the group encoded using user address encoding. The caller is auto-added",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "name",
+                    "description": "The group name",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "replay_history",
+                    "description": "A boolean value indicating if, when a new member is added to the group, it should get the messages sent to the group before that. Default value: false.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "TT",
+                    "description": "The organization in which the user wants to create the group. Defaults to the TigerText Consumer organization.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "rawModeData": ""
+        },
+        {
+            "id": "99bb23ae830610f9945169c903e9a7ab",
+            "name": "Delete a group. If the group has already been deleted, no error is reported.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/",
+            "description": "Delete a group. If the group has already been deleted, no error is reported.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "group_token",
+                    "description": "The group token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "rawModeData": ""
+        },
+        {
+            "id": "98387bb21ab4e58ebc52cefbc91fbb83",
+            "name": "Add members to a group.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/members\/",
+            "description": "Add members to a group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "group_token",
+                    "description": "The group token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "members",
+                    "description": "The members to add to the group encoded using user address encoding. The caller is auto-added",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "rawModeData": ""
+        },
+        {
+            "id": "46141fba37a7fdb615c6545399943449",
+            "name": "Remove members from a group.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/members\/remove\/",
+            "description": "Remove members from a group.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "group_token",
+                    "description": "The group token.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "members",
+                    "description": "The members to add to the group encoded using user address encoding. The caller is auto-added",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "rawModeData": ""
+        }
+    ]
+}
