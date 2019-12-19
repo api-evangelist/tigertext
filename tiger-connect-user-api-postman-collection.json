@@ -1,0 +1,51 @@
+{
+    "id": "86fb4f286129d21a454d819e6c582822",
+    "name": "Tiger Connect User API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "aabc984665c1419cbfed6ed3731bdd7d",
+            "name": "Get information about users using their user address encoding.",
+            "url": "httpsdeveloper.tigertext.me\/v2\/\/user\/{user_address}\/",
+            "description": "Get information about users using their user address encoding.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "TT",
+                    "description": "The organization for which to show the users organization-bound fields (i.e. time_to_live, delete_on_read, distinguished_name). ",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "user_address",
+                    "description": "The user address.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "86fb4f286129d21a454d819e6c582822",
+            "rawModeData": ""
+        }
+    ]
+}
