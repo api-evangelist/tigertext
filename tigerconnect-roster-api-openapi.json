@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "TigerConnect Roster API",
+        "description": "The roster system for TigerConnect messaging platform.",
+        "termsOfService": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+    },
+    "servers": [
+        "httpsdeveloper.tigertext.me\/v2\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "roster": {
+                "type": "object",
+                "properties": {
+                    "Name": {
+                        "description": "Name of the roster.",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
