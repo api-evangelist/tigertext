@@ -1,0 +1,402 @@
+{
+    "name": "TigerText",
+    "description": "<p>TigerText is a multi-platform, secure, real-time messaging application for the enterprise that allows text messages to be deleted from both the sender's and the receiver's phones after expiration, which could be a set period of time or after reading. The messages cannot be saved, copied or forwarded by recipients. TigerText does this by storing the message on a company server, not the receiving and sending device, and deleting when the expiration conditions are met.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+    "tags": [
+        "getting started example",
+        "have api",
+        "messages",
+        "relative data",
+        "secure",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "TigerConnect User API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-user-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-user-api.json"
+                }
+            ]
+        },
+        {
+            "name": "TigerConnect Group API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-group-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-group-api.json"
+                }
+            ]
+        },
+        {
+            "name": "TigerConnect Roster API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-roster-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-roster-api.json"
+                }
+            ]
+        },
+        {
+            "name": "TigerConnect Message API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-message-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-message-api.json"
+                }
+            ]
+        },
+        {
+            "name": "TigerConnect Events API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-events-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-events-api.json"
+                }
+            ]
+        },
+        {
+            "name": "TigerConnect Metadata API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-metadata-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-metadata-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect Group API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-group-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-group-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect User API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-user-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-user-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect Message API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-message-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-message-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect Events API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-events-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-events-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect Metadata API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-metadata-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-metadata-api.json"
+                }
+            ]
+        },
+        {
+            "name": "Tiger Connect Roster API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/tigertext-logo.png",
+            "humanURL": "http:\/\/tigertext.me",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-roster-api-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-roster-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Android SDK",
+            "url": "https:\/\/developer.tigertext.com\/docs\/sdk#android-sdk"
+        },
+        {
+            "type": "Angellist",
+            "url": "https:\/\/angel.co\/tigertext"
+        },
+        {
+            "type": "Authentication",
+            "url": "https:\/\/developer.tigertext.com\/docs\/tigerconnect-basics#authentication"
+        },
+        {
+            "type": "Base",
+            "url": "http:\/\/developer.tigertext.me"
+        },
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.tigertext.com\/blog\/"
+        },
+        {
+            "type": "Case Studies",
+            "url": "http:\/\/www.tigertext.com\/secure-messaging-case-studies"
+        },
+        {
+            "type": "Compliance",
+            "url": "http:\/\/www.tigertext.com\/compliance-guarantee\/"
+        },
+        {
+            "type": "Contact Form",
+            "url": "http:\/\/www.tigertext.com\/supportform\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/www.crunchbase.com\/organization\/tigertext"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/developer.tigertext.com\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/developer.tigertext.com\/docs\/rest-api-reference"
+        },
+        {
+            "type": "Email",
+            "url": "mailto:info@tigertext.com"
+        },
+        {
+            "type": "Events",
+            "url": "http:\/\/www.tigertext.com\/event\/"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/TigerText"
+        },
+        {
+            "type": "FAQ",
+            "url": "http:\/\/www.tigertext.com\/faqs\/"
+        },
+        {
+            "type": "Getting Started",
+            "url": "https:\/\/developer.tigertext.com\/docs"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/tigertext"
+        },
+        {
+            "type": "Google Plus",
+            "url": "https:\/\/plus.google.com\/+TigertextApp\/posts"
+        },
+        {
+            "type": "Instagram",
+            "url": "https:\/\/instagram.com\/tigertext\/"
+        },
+        {
+            "type": "iOS SDK",
+            "url": "https:\/\/developer.tigertext.com\/docs\/sdk#ios-sdk"
+        },
+        {
+            "type": "JavaScript SDK",
+            "url": "https:\/\/developer.tigertext.com\/docs\/sdk#web-sdk"
+        },
+        {
+            "type": "Licensing",
+            "url": "http:\/\/reseller.tigertext.com\/license\/"
+        },
+        {
+            "type": "Partner Signup",
+            "url": "http:\/\/reseller.tigertext.com\/partner-signup"
+        },
+        {
+            "type": "Pricing",
+            "url": "http:\/\/www.tigertext.com\/pricing\/"
+        },
+        {
+            "type": "Privacy",
+            "url": "http:\/\/www.tigertext.com\/privacy-policy\/"
+        },
+        {
+            "type": "Reseller Signup",
+            "url": "http:\/\/reseller.tigertext.com\/"
+        },
+        {
+            "type": "Security",
+            "url": "https:\/\/developer.tigertext.com\/docs\/tigerconnect-basics#security-and-compliance"
+        },
+        {
+            "type": "Registration",
+            "url": "https:\/\/developer.tigertext.com"
+        },
+        {
+            "type": "Status",
+            "url": "http:\/\/status.tigertext.com\/"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/www.tigertext.com\/developer-terms-of-use\/"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/tigertext"
+        },
+        {
+            "type": "Videos",
+            "url": "http:\/\/reseller.tigertext.com\/videos\/"
+        },
+        {
+            "type": "Vimeo",
+            "url": "https:\/\/vimeo.com\/tigertext"
+        },
+        {
+            "type": "Webinars",
+            "url": "http:\/\/www.tigertext.com\/webinars\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.tigertext.com\/"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/tigertext.me"
+        },
+        {
+            "type": "White Papers",
+            "url": "http:\/\/www.tigertext.com\/white-papers-case-studie"
+        },
+        {
+            "type": "Wikipedia",
+            "url": "http:\/\/en.wikipedia.org\/wiki\/TigerText"
+        },
+        {
+            "type": "Windows SDK",
+            "url": "https:\/\/developer.tigertext.com\/docs\/sdk#win-sdk"
+        },
+        {
+            "type": "Youtube",
+            "url": "https:\/\/www.youtube.com\/tigertext"
+        }
+    ]
+}
