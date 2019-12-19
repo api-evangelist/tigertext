@@ -1,0 +1,26 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "TigerConnect Events API",
+        "description": "The events system for TigerConnect messaging platform.",
+        "termsOfService": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+    },
+    "servers": [
+        "httpsdeveloper.tigertext.me\/v2\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "event": {
+                "type": "object",
+                "properties": {
+                    "Name": {
+                        "description": "Name of the event.",
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    }
+}
