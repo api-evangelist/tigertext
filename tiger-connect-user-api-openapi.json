@@ -1,0 +1,111 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v2",
+        "title": "Tiger Connect User API",
+        "description": "The user system for TigerConnect messaging platform.",
+        "termsOfService": "http:\/\/www.tigertext.com\/developer-terms-of-use"
+    },
+    "servers": [
+        "httpsdeveloper.tigertext.me\/v2\/"
+    ],
+    "paths": {
+        "\/user\/{user_address}\/": {
+            "get": {
+                "summary": "Get information about users using their user address encoding.",
+                "description": "Get information about users using their user address encoding.",
+                "operationId": "GetUser",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "TT",
+                        "in": "query",
+                        "description": "The organization for which to show the users organization-bound fields (i.e. time_to_live, delete_on_read, distinguished_name). "
+                    },
+                    {
+                        "name": "user_address",
+                        "in": "path",
+                        "description": "The user address."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "User": {
+                "type": "object",
+                "properties": {
+                    "token": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "display_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "avatar": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "push_sound": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "dnd": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "dnd_text": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "time_to_live": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "delete_on_read": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "distinguished_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "department": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "emails": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phones": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
