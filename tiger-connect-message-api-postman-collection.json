@@ -1,5 +1,5 @@
 {
-    "id": "e06a42e010810483bafa4ba83d9d686a",
+    "id": "6bc124af5a4f070eea59b5bc871e8cca",
     "name": "Tiger Connect Message API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "683256551810d34962f2524e56e92677",
+            "id": "99c71156492c8df6601555fb563703e9",
             "name": "Send a message to a User or Group.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/",
             "description": "Send a message to a User or Group. The parameters to be included either on the JSON object or the POST body itself. If no recipient is found, a new account is created and the message is sent to the associated email or phone number if available.",
@@ -79,11 +79,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "8ed34629b7817aaf2f5bc71424c45432",
+            "id": "fd65c020c63d901a811e6614b36e2d2d",
             "name": "Update the status of a message or several messages.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/status\/",
             "description": "Update the status of a message or several messages.",
@@ -117,11 +117,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "76b3fd22d21f1813b7149c3be307cec2",
+            "id": "e1b08d71b969ab02b3d046f072fc4ac1",
             "name": "Notify a recipient that a particular User is typing in a conversation.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/typing\/",
             "description": "Notify a recipient that a particular User is typing in a conversation.",
@@ -148,11 +148,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "10eb80304d51f2070f80c9dae3f55bd1",
+            "id": "cc54648a4d4dc7b922fccbbcbdd26b60",
             "name": "Notify a recipient that the User is no longer typing in a conversation.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/typing\/{recipient_address}\/",
             "description": "Notify a recipient that the User is no longer typing in a conversation. The recipient is either another User or Group using address encoding.",
@@ -179,11 +179,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "537808f4fe1aca2351575008e2a15834",
+            "id": "550c84276f52d68267f936c1b0e48176",
             "name": "Recalls the message with the following message token.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/{message_token}\/",
             "description": "Recalls the message with the following message token. If the message was already recalled, no error is reported.",
@@ -210,11 +210,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "8d2f66e401eea9281642c472041e5b8a",
+            "id": "94c1dc2ba4f83c890db749d59d2e8663",
             "name": "Get information about a message",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/{message_token}\/",
             "description": "Get information about a message",
@@ -241,11 +241,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "785d66f3624020387d57085ec74c3c6d",
+            "id": "3fbe0f2d015dd7e1115711ba2b654119",
             "name": "Retrieves the attachment from the message.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/{message_token}\/attachment\/1\/",
             "description": "Retrieves the attachment from the message. Currently we only support one attachment per message. if found. It returns the attached file.",
@@ -272,11 +272,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         },
         {
-            "id": "5c96d883171d203021dbf5a5f17c1e6c",
+            "id": "05f65b0934bbaf0cadae568f324b1020",
             "name": "Forward the message to the following User or Group.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/message\/{message_token}\/forward\/",
             "description": "Forward the message to the following User or Group.",
@@ -324,7 +324,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e06a42e010810483bafa4ba83d9d686a",
+            "collectionId": "6bc124af5a4f070eea59b5bc871e8cca",
             "rawModeData": ""
         }
     ]
