@@ -1,5 +1,5 @@
 {
-    "id": "86fb4f286129d21a454d819e6c582822",
+    "id": "8e4e68228e63d116dfda611c576aa8aa",
     "name": "Tiger Connect User API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "aabc984665c1419cbfed6ed3731bdd7d",
+            "id": "2b6eb80638b39ac9f5e1c73071025786",
             "name": "Get information about users using their user address encoding.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/user\/{user_address}\/",
             "description": "Get information about users using their user address encoding.",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "86fb4f286129d21a454d819e6c582822",
+            "collectionId": "8e4e68228e63d116dfda611c576aa8aa",
             "rawModeData": ""
         }
     ]
