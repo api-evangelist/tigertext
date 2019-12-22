@@ -10,8 +10,8 @@
         "secure",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -25,11 +25,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-user-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-user-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-user-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-user-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-user-api-postman-collection.json"
                 }
             ]
         },
@@ -43,11 +47,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-group-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-group-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-group-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-group-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-group-api-postman-collection.json"
                 }
             ]
         },
@@ -61,11 +69,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-roster-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-roster-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-roster-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-roster-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-roster-api-postman-collection.json"
                 }
             ]
         },
@@ -79,11 +91,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-message-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-message-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-message-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-message-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-message-api-postman-collection.json"
                 }
             ]
         },
@@ -97,11 +113,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-events-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-events-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-events-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-events-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-events-api-postman-collection.json"
                 }
             ]
         },
@@ -115,11 +135,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tigerconnect-metadata-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-metadata-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tigerconnect-metadata-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-metadata-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tigerconnect-metadata-api-postman-collection.json"
                 }
             ]
         },
@@ -133,11 +157,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-group-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-group-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-group-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-group-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-group-api-postman-collection.json"
                 }
             ]
         },
@@ -151,11 +179,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-user-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-user-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-user-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-user-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-user-api-postman-collection.json"
                 }
             ]
         },
@@ -169,11 +201,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-message-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-message-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-message-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-message-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-message-api-postman-collection.json"
                 }
             ]
         },
@@ -187,11 +223,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-events-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-events-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-events-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-events-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-events-api-postman-collection.json"
                 }
             ]
         },
@@ -205,11 +245,15 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-metadata-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-metadata-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-metadata-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-metadata-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-metadata-api-postman-collection.json"
                 }
             ]
         },
@@ -223,17 +267,25 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/tiger-connect-roster-api-openapi.json"
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-roster-api.json"
                 },
                 {
                     "type": "x-openapi",
-                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/tiger-connect-roster-api.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-roster-api-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/tigertext\/master\/tiger-connect-roster-api-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Android SDK",
             "url": "https:\/\/developer.tigertext.com\/docs\/sdk#android-sdk"
