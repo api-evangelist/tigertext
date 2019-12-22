@@ -1,5 +1,5 @@
 {
-    "id": "3ead4d4b71aee51b6e0646f6ffea47d4",
+    "id": "0cc20ec20e5f22f78fa67e8b95985599",
     "name": "Tiger Connect Events API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "a49058d328f8af22a6230557747551ae",
+            "id": "06fa7ad1013182b00bd93879d5be8fce",
             "name": "Drop the events connections.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/events\/",
             "description": "Drop the events connections.",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3ead4d4b71aee51b6e0646f6ffea47d4",
+            "collectionId": "0cc20ec20e5f22f78fa67e8b95985599",
             "rawModeData": ""
         },
         {
-            "id": "e1bad41f754634dcb2ddfd816faf0b28",
+            "id": "7dc4ac7eaf0878cbe431411bebac21f7",
             "name": "Opens a SSE event stream.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/events\/",
             "description": "Opens a SSE event stream. The various Event Types are listed below.",
@@ -52,7 +52,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3ead4d4b71aee51b6e0646f6ffea47d4",
+            "collectionId": "0cc20ec20e5f22f78fa67e8b95985599",
             "rawModeData": ""
         }
     ]
