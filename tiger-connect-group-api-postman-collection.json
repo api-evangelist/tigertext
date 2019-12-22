@@ -1,5 +1,5 @@
 {
-    "id": "e64cb342fa1b72057d5ea94cd12122c6",
+    "id": "043249b5f067e8b1a9440a617a226546",
     "name": "Tiger Connect Group API",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "56e1ace108494e9d3d0678eaa70b334e",
+            "id": "621d96b0af34c0ee628eca2111fa0f1d",
             "name": "Create a new group.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/",
             "description": "Create a new group.",
@@ -65,11 +65,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "collectionId": "043249b5f067e8b1a9440a617a226546",
             "rawModeData": ""
         },
         {
-            "id": "99bb23ae830610f9945169c903e9a7ab",
+            "id": "d7c9d42cfa0d1f1d2ea810f241193629",
             "name": "Delete a group. If the group has already been deleted, no error is reported.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/",
             "description": "Delete a group. If the group has already been deleted, no error is reported.",
@@ -96,11 +96,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "collectionId": "043249b5f067e8b1a9440a617a226546",
             "rawModeData": ""
         },
         {
-            "id": "98387bb21ab4e58ebc52cefbc91fbb83",
+            "id": "9736d903ace0acdd780e62602ef206ea",
             "name": "Add members to a group.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/members\/",
             "description": "Add members to a group.",
@@ -134,11 +134,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "collectionId": "043249b5f067e8b1a9440a617a226546",
             "rawModeData": ""
         },
         {
-            "id": "46141fba37a7fdb615c6545399943449",
+            "id": "b7f34fe4505ad97e752fd84e029f9d2f",
             "name": "Remove members from a group.",
             "url": "httpsdeveloper.tigertext.me\/v2\/\/group\/{group_token}\/members\/remove\/",
             "description": "Remove members from a group.",
@@ -172,7 +172,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "e64cb342fa1b72057d5ea94cd12122c6",
+            "collectionId": "043249b5f067e8b1a9440a617a226546",
             "rawModeData": ""
         }
     ]
